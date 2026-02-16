@@ -5,7 +5,7 @@ The system uses Sentence Transformers + FAISS for semantic similarity and return
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Search videos using natural language (semantic search)
 - Powered by Sentence Transformers (MiniLM)
@@ -17,7 +17,7 @@ The system uses Sentence Transformers + FAISS for semantic similarity and return
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 User enters a query →  
 It is converted to an embedding →  
@@ -26,7 +26,7 @@ Top matching videos are returned.
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 ### Backend
 - Python
@@ -45,26 +45,9 @@ Top matching videos are returned.
 
 ---
 
-## 📁 Project Structure
 
-AI_Video_APP/
-├── backened/
-│   ├── app.py  
-│   ├── generate_embeddings.py  
-│   ├── Input_Vid_File.xlsx  
-│   ├── Videos_Data/  
-│
-├── frontend/
-│   ├── index.html  
-│   ├── script.js  
-│   └── style.css  
-│
-├── requirements.txt  
-└── README.md  
 
----
-
-## 📊 Excel Format
+##  Excel Format
 
 Input_Vid_File.xlsx must contain:
 
@@ -75,24 +58,8 @@ Input_Vid_File.xlsx must contain:
 
 ---
 
-## ⚙ Installation & Run
 
-### 1. Create virtual environment
-python -m venv env  
-env\Scripts\activate  
-
-### 2. Install packages
-pip install -r requirements.txt  
-
-### 3. Run backend
-uvicorn app:app --reload --port 8000  
-
-### 4. Open in browser
-http://127.0.0.1:8000  
-
----
-
-## 🔍 Example Queries
+##  Example Queries
 
 - a person walking in park  
 - dog playing with ball  
@@ -100,20 +67,9 @@ http://127.0.0.1:8000
 
 ---
 
-## 📌 API Endpoints
 
-POST /search  
-GET /videos/{filename}  
 
----
-
-## 🧪 Generate Embeddings
-
-python generate_embeddings.py  
-
----
-
-## 🎯 Use Cases
+##  Use Cases
 
 - Video platforms  
 - Media search engines  
@@ -122,7 +78,7 @@ python generate_embeddings.py
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 Venkatrao Thallapalli  
 AI/ML Engineer  
@@ -132,6 +88,4 @@ LinkedIn: https://linkedin.com/in/venkatraothallapalli
 
 ---
 
-## 🧠 Interview One-Liner
 
-I built an AI-powered semantic video search engine using Sentence Transformers and FAISS that retrieves videos based on meaning rather than keywords, served through a FastAPI backend with a full frontend interface.
