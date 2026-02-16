@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Video Search</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎥 AI VIDEO SEARCH</h1>
+
+    <div class="search-box">
+      <input type="text" id="query" placeholder="Type something like 'a person walking in park'..." />
+      <button id="searchBtn">Search</button>
+    </div>
+
+    <div id="loading" class="loading hidden">Searching...</div>
+    <div id="results" class="results"></div>
+  </div>
+
+  <!-- JS must be loaded like this -->
+  <script src="/static/script.js"></script>
+</body>
+</html>
